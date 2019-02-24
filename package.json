@@ -1,0 +1,19 @@
+{
+  "name": "acme-travel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.16.4",
+    "node": "^11.9.0",
+    "pg": "^7.8.0",
+    "sequelize": "^4.42.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "DATABASE_URL=postgres://localhost/acme_travel_db nodemon ./server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
